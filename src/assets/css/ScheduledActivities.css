@@ -1,0 +1,35 @@
+.scheduled-activities-container {
+  min-height: 122px;
+  margin-bottom: 20px;
+}
+
+.schedule-button {
+  width: 295px;
+  height: 50px;
+  color: white;
+  background: rgba(217, 125, 84, 1) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 15px rgba(27, 28, 32, 0.2);
+  opacity: 1;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.schedule-button:hover {
+  background: rgba(217, 125, 84, 0.9) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 15px rgba(27, 28, 32, 0.3);
+  cursor: pointer;
+}
+
+.schedule-button-icon {
+  background: transparent url("../images/icn_plus.svg") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}

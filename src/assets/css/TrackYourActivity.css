@@ -1,0 +1,10 @@
+.track-your-activity-container {
+  height: 224px;
+  margin-bottom: 36px;
+}
+
+.activity-cards-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
